@@ -72,17 +72,17 @@ frame_donnees = tk.Frame(frame_donnees)
 frame_donnees.pack(fill="x", pady=10)
 
 sous_frame_temperature = tk.Frame(frame_donnees, bd=1, relief="solid")
-sous_frame_temperature.pack(side="left", fill="both", padx=80)
+sous_frame_temperature.pack(side="left", fill="both", padx=90)
 
 tk.Label(sous_frame_temperature, text="21.4°C").pack(pady=5)
 
 sous_frame_humidite = tk.Frame(frame_donnees, bd=1, relief="solid")
-sous_frame_humidite.pack(side="left", fill="both", padx=80)
+sous_frame_humidite.pack(side="left", fill="both", padx=150)
 
 tk.Label(sous_frame_humidite, text="54%").pack(pady=15)
 
 sous_frame_pression = tk.Frame(frame_donnees, bd=1, relief="solid")
-sous_frame_pression.pack(side="left", fill="both", padx=90)
+sous_frame_pression.pack(side="right", fill="both", padx=50)
 
 tk.Label(sous_frame_pression, text="998 hPa").pack(pady=5)
 
